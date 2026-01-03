@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(void){
+	char ch;
+	int i,n;
+	scanf(" %c %d", &ch,&n);
+	for(i=0;i<n;i++){
+        printf("%c",ch);
+    }
+
+return 0;
+}
